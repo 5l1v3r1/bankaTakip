@@ -26,5 +26,7 @@ namespace bankaTakip.Models
         public bool AktifMi { get; set; }
         [Display(Name ="Hesap Kesim Günü")]
         public Int16 HesapKesimGunu { get; set; }
+
+        public virtual ICollection<BankCard> BankCards { get; set; }
     }
 }

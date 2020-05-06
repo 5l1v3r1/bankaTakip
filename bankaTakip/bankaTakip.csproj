@@ -129,6 +129,7 @@
     <Compile Include="Models\BankCard.cs" />
     <Compile Include="Models\BankCredit.cs" />
     <Compile Include="Models\Branch.cs" />
+    <Compile Include="Models\BranchAccount.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Credit.cs" />

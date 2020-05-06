@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -24,5 +25,10 @@ namespace bankaTakip.Models
         public string Aciklama { get; set; }
         [Display(Name = "Ödeme Tipi")]
         public PaymentMethod OdemeTipi { get; set; }
+
+        [ForeignKey("MusteriNo")]
+        public virtual Customer Customer { get; set; }
+        [ForeignKey("HesapNo")]
+        public virtual Account Account { get; set; }
     }
 }

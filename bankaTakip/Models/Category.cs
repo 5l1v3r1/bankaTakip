@@ -12,5 +12,7 @@ namespace bankaTakip.Models
         public int No { get; set; }
         [Display(Name = "Kategori Adı")]
         public string KategoriAdi { get; set; }
+
+        public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

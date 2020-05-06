@@ -18,5 +18,7 @@ namespace bankaTakip.Models
         public string IBAN { get; set; }
         [Display(Name = "Telefon")]
         public string Telefon { get; set; }
+
+        public virtual ICollection<Transfer> Transfers { get; set; }
     }
 }

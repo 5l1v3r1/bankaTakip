@@ -26,5 +26,9 @@ namespace bankaTakip.Models
         public DateTime EklenmeTarihi { get; set; }
         [Display(Name = "Güncelleme Tarihi")]
         public DateTime GuncellemeTarihi { get; set; }
+
+        public virtual ICollection<BranchAccount> BranchAccounts { get; set; }
+        public virtual ICollection<Transaction> Transactions { get; set; }
+        public virtual ICollection<Transfer> Transfers { get; set; }
     }
 }

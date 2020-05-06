@@ -17,5 +17,7 @@ namespace bankaTakip.Models
         [Display(Name ="Kredi Çekme Tarihi")]
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
         public DateTime CekilmeTarihi { get; set; }
+
+        public virtual ICollection<BankCredit> BankCredits { get; set; }
     }
 }
