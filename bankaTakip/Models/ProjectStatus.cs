@@ -12,5 +12,7 @@ namespace bankaTakip.Models
         public int No { get; set; }
         [Display(Name="Yapılacak")]
         public string Aciklama { get; set; }
+        [Display(Name ="Tamamlandı Mı")]
+        public bool TamamlandiMi { get; set; }
     }
 }
