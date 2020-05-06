@@ -205,6 +205,7 @@
     <Compile Include="Models\Definition.cs" />
     <Compile Include="Models\enums\CardType.cs" />
     <Compile Include="Models\enums\CardPaymentSystem.cs" />
+    <Compile Include="Models\enums\Gender.cs" />
     <Compile Include="Models\enums\PaymentMethod.cs" />
     <Compile Include="Models\enums\Role.cs" />
     <Compile Include="Models\Project.cs" />

@@ -32,5 +32,6 @@ namespace bankaTakip.Models
         public string SifreTekrar { get; set; }
         [Display(Name = "Rolü")]
         public Role Rol { get; set; }
+        public Gender Cinsiyet { get; set; }
     }
 }
