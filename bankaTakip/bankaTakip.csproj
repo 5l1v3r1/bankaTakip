@@ -138,6 +138,7 @@
     <Compile Include="Models\enums\CardPaymentSystem.cs" />
     <Compile Include="Models\enums\PaymentMethod.cs" />
     <Compile Include="Models\enums\Role.cs" />
+    <Compile Include="Models\ProjectStatus.cs" />
     <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\Transfer.cs" />

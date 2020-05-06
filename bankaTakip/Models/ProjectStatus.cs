@@ -6,13 +6,11 @@ using System.Web;
 
 namespace bankaTakip.Models
 {
-    public class BankCard
+    public class ProjectStatus
     {
         [Key]
         public int No { get; set; }
-        [Display(Name ="Banka Adı")]
-        public int BankaNo { get; set; }
-        [Display(Name = "Kart Adı")]
-        public int CardNo { get; set; }
+        [Display(Name="Yapılacak")]
+        public string Aciklama { get; set; }
     }
 }

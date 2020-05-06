@@ -31,6 +31,6 @@ namespace bankaTakip.Models
         [Compare("Sifre",ErrorMessage ="Şifreler uyuşmamaktadır.")]
         public string SifreTekrar { get; set; }
         [Display(Name = "Rolü")]
-        public Role Role { get; set; }
+        public Role Rol { get; set; }
     }
 }

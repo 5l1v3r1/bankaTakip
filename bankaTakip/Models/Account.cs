@@ -18,9 +18,13 @@ namespace bankaTakip.Models
         public int HesapEkNo { get; set; }
         [Display(Name = "Açılış Bakiyesi")]
         public double AcilisBakiyesi { get; set; }
+        [Display(Name ="Aktif Mi")]
         public bool AktifMi { get; set; }
+        [Display(Name ="Varsayılan Hesap")]
         public bool VarsayılanHesapMi { get; set; }
+        [Display(Name="Oluşturulma Tarihi")]
         public DateTime EklenmeTarihi { get; set; }
+        [Display(Name = "Güncelleme Tarihi")]
         public DateTime GuncellemeTarihi { get; set; }
     }
 }
