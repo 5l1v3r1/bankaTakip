@@ -179,6 +179,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Migrations\202005061157438_db_v1.cs" />
     <Compile Include="Migrations\202005061157438_db_v1.Designer.cs">
       <DependentUpon>202005061157438_db_v1.cs</DependentUpon>
@@ -186,6 +187,10 @@
     <Compile Include="Migrations\202005061648244_db_v2.cs" />
     <Compile Include="Migrations\202005061648244_db_v2.Designer.cs">
       <DependentUpon>202005061648244_db_v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005061654088_db_v3.cs" />
+    <Compile Include="Migrations\202005061654088_db_v3.Designer.cs">
+      <DependentUpon>202005061654088_db_v3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
@@ -255,6 +260,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\User\Create.cshtml" />
+    <Content Include="Views\User\Delete.cshtml" />
+    <Content Include="Views\User\Details.cshtml" />
+    <Content Include="Views\User\Edit.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -278,6 +288,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005061648244_db_v2.resx">
       <DependentUpon>202005061648244_db_v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005061654088_db_v3.resx">
+      <DependentUpon>202005061654088_db_v3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
