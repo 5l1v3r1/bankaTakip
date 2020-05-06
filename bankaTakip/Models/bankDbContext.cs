@@ -29,10 +29,14 @@ namespace bankaTakip.Models
         public DbSet<Credit> Credits { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Definition> Definitions { get; set; }
-        public DbSet<ProjectStatus> ProjectStatuses { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<Transfer> Transfers { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<ProjectCategory> ProjectCategories { get; set; }
+        public DbSet<ProjectForCategory> ProjectForCategories { get; set; }
+        public DbSet<ProjectStatus> ProjectStatuses { get; set; }
+        public DbSet<Todo> Todos { get; set; }
     }
 }
